@@ -1,10 +1,13 @@
 #include <string>
 using namespace std;
 
-typedef enum {cocast, coverd, coazul} Tcorolhos;
-typedef enum {sxMasc, sxFem} Tsexo;
+
+typedef enum { cocast, coverd, coazul } Tcorolhos;
+typedef enum { sxMasc, sxFem } Tsexo;
+
 class Pessoa
 {
+
     Pessoa *pai, *mae;
     string nome;
     int idade, id;
@@ -13,6 +16,8 @@ class Pessoa
 
 
 public:
+
+
     Pessoa(string nome,int idade, Tsexo sexo, Tcorolhos cor, Pessoa* pai,Pessoa* mae);
     Pessoa(string dados);
     string getNome();

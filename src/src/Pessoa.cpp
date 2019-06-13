@@ -1,8 +1,8 @@
 #include <sstream>
 #include <iostream>
+#include "Pessoa.h"
 
 using namespace std;
-#include "Pessoa.h"
 
 Pessoa::Pessoa(string nome,int idade, Tsexo sexo, Tcorolhos cor, Pessoa *pai,Pessoa *mae)
 {

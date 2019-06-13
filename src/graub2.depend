@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1560383705 source:c:\users\lucaskd\graubcpp2\graub2\src\pessoa.cpp
+	<sstream>
+	<iostream>
+	"Pessoa.h"
+
+1560384002 c:\users\lucaskd\graubcpp2\graub2\include\pessoa.h
+	<string>
+
+1560383963 source:c:\users\lucaskd\graubcpp2\graub2\src\arvore.cpp
+	<vector>
+	<fstream>
+	<string>
+	<iostream>
+	<Pessoa.h>
+
+1560384065 source:c:\users\lucaskd\graubcpp2\graub2\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Pessoa.h"
+	"Arvore.h"
+
+1560383705 c:\users\lucaskd\graubcpp2\graub2\src\pessoa.cpp
+	<sstream>
+	<iostream>
+	"Pessoa.h"
+
+1560383963 c:\users\lucaskd\graubcpp2\graub2\src\arvore.cpp
+	<vector>
+	<fstream>
+	<string>
+	<iostream>
+	<Pessoa.h>
+
+1560383749 c:\users\lucaskd\graubcpp2\graub2\include\arvore.h
+
+1560384065 source:c:\users\lucaskd\graubcpp3\grau-b-cpp\src\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Pessoa.h"
+	"Arvore.h"
+
+1560383963 source:c:\users\lucaskd\graubcpp3\grau-b-cpp\src\src\arvore.cpp
+	<vector>
+	<fstream>
+	<string>
+	<iostream>
+	<Pessoa.h>
+
+1560383705 source:c:\users\lucaskd\graubcpp3\grau-b-cpp\src\src\pessoa.cpp
+	<sstream>
+	<iostream>
+	"Pessoa.h"
+

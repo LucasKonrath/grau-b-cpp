@@ -1,7 +1,8 @@
 #include <vector>
 #include <fstream>
 #include <string>
-
+#include<iostream>
+#include<Pessoa.h>
 using namespace std;
 
 class Arvore
@@ -34,7 +35,7 @@ public:
         fs.open(path.c_str(), fstream::out|fstream::trunc);
         if(fs.is_open())
         {
-            for(it = pessoas.begin(); it!=pessoas.end(); it++)
+            for(it = listaPessoas.begin(); it!=listaPessoas.end(); it++)
                 fs << (*it)->serialize();
 
             fs.close();

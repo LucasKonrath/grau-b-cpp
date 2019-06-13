@@ -2,8 +2,9 @@
 #include<vector>
 #include<string>
 
-#include "Pessoa.cpp"
-#include "arvore.cpp"
+#include "include/Pessoa.h"
+#include "include/Arvore.h"
+
 using namespace std;
 
 int menu()
@@ -35,11 +36,11 @@ int main()
     Pessoa *mae = new Pessoa("josefina",11,  sxFem, coverd, NULL, NULL);
     pai->imprimeDados();
 
-cout<<   endl;
+    cout<<endl;
 
     mae->imprimeDados();
 
-   cout<<endl;
+    cout<<endl;
 
     Pessoa *filho = mae->geraPessoa("Enzo",1, sxFem, pai);
 
@@ -48,10 +49,5 @@ cout<<   endl;
 
 
 
-    Arvore arvore;
-    arvore.inserirPessoa(pai);
-    arvore.inserirPessoa(mae);
-    arvore.inserirPessoa(filho);
-    arvore.salvarDados("arvore.txt");
 
 }

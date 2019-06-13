@@ -1,3 +1,0 @@
-Josue	11	Masculino	Castanho		
-josefina	11	Feminino	Verde		
-Enzo	1	Feminino	Castanho	Josue	josefina
